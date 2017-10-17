@@ -1,0 +1,51 @@
+
+body {
+	background-color: white;
+}
+
+.container {
+	width: auto;
+	max-width: 1200px;
+	margin: 0;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main-discount {
+	background-image: url();
+}
+
+.main-preferences {
+	background-image: url();
+}
+
+.main-request {
+	background-image: url();
+}
+
+.btn-pc {
+	background-color: yellow;
+}
+
+.selection-table {
+	border: none;
+	border-collapse: collapse;
+}
+
+
+
+td {
+	border-bottom: 2px solid grey;
+}
+
+.preferences-item {
+	border: 2px solid yellow;
+}
+
+.preferences-item p {
+	color: yellow;
+}
